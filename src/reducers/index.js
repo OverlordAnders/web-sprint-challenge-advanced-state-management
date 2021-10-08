@@ -32,7 +32,7 @@ const reducer = (state = initialState, action)=>{
             name: action.payload.name,
             nickname: action.payload.nickname ,
             position: action.payload.position,
-            summary: action.payload.summary,
+            description: action.payload.description,
             id:action.payload.id
         }
 
